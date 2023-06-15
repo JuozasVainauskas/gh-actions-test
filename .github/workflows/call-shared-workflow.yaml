@@ -3,4 +3,4 @@ run-name: ${{ github.actor }} is testing out GitHub Actions
 on: [push]
 jobs:
   call-shared-workflow:
-    uses: JuozasVainauskas/gh-shared-workflows-test/.github/workflows/hello-world.yaml@main
+    uses: JuozasVainauskas/gh-shared-workflows-test/.github/workflows/hello-world.yaml@feature/test_reusable_workflow
