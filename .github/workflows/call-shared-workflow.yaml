@@ -1,0 +1,6 @@
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions
+on: [push]
+jobs:
+  call-shared-workflow:
+    uses: JuozasVainauskas/gh-shared-workflows-test/.github/workflows/hello-world.yaml@add_first_test_shared_workflow
